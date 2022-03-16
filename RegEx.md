@@ -22,8 +22,6 @@
 
 ## **Characters**
 
----
-
 ### **Wildcard Metacharacter ( `.` )**
 
 ---
@@ -70,8 +68,6 @@ Match: `/etc/`
 
 ### **Example**
 
----
-
 Text: `"resume1.txt, resume2.txt, resume3_txt.zip"`
 
 ```text
@@ -110,8 +106,6 @@ Match: `c<CRLF>d`
 
 ### **Character set**
 
----
-
 - Character set metacharacter ( `[]` )
 
 - `/[aeiou]/` - matches any one vowel `"a", "e", "i", "o", "u"`
@@ -144,8 +138,6 @@ Match: `555-666-7890`
 
 ### **Negative Character Set**
 
----
-
 - Metacharacter ( `^` ) - Negates a entire character set
 
 - Not any one of several characters
@@ -167,8 +159,6 @@ Match: `"see "` `"seek"`
 ---
 
 ### **Metacharacters inside a Character sets**
-
----
 
 - Most metacharacters inside a character set are already escaped
 
@@ -197,8 +187,6 @@ Match: `"file01"` `"file-1"` `"file\1"` `"file_1"`
 ---
 
 ### **Shorthand Character Sets**
-
----
 
 | Shorthand | Meaning            | Equivalent      |
 | --------- | ------------------ | --------------- |
@@ -236,8 +224,6 @@ Match: `"file01"` `"file-1"` `"file\1"` `"file_1"`
 ---
 
 ### **Repetition Metacharacter**
-
----
 
 | Metacharacter | Meaning                            |
 | ------------- | ---------------------------------- |
@@ -279,8 +265,6 @@ Match: `"apples"` `"applessss"`
 
 ### **Quantified Repetition**
 
----
-
 | Metacharacter | Meaning                                       |
 | ------------- | --------------------------------------------- |
 | {             | Start quantified repetition of preceding item |
@@ -319,8 +303,6 @@ Match: `"3. abc "` `"4. abcd "` `"5. abcde "`
 
 ### Greedy Expressions
 
----
-
 - Standard repetition quantifiers are greedy
 
 - Expression tries to match the longest possible string
@@ -350,8 +332,6 @@ Match: `"asdf", "asdf", "asdf, asdf."`
 
 ### Lazy Expression
 
----
-
 | Metacharacter | Meaning                        |
 | ------------- | ------------------------------ |
 | ?             | Make preceding quantifier lazy |
@@ -373,8 +353,6 @@ Match: `"asdf", "asdf"`
 ---
 
 ### Grouping Metacharacters
-
----
 
 | Metacharacter | Meaning                |
 | ------------- | ---------------------- |
@@ -435,8 +413,6 @@ Match: `"does not" "does no" "do not" "do no" "do nothing" "does nothing"`
 ---
 
 ### Anchors
-
----
 
 Start and End Anchors
 
@@ -520,8 +496,6 @@ mangoes
 
 ### Word Boundaries
 
----
-
 | Metacharacter | Meaning                           |
 | ------------- | --------------------------------- |
 | \b            | Word Boundary (start/end of word) |
@@ -566,11 +540,7 @@ String: `This is a test`
 
 ---
 
----
-
 ### Capturing Group
-
----
 
 - Capturing Group - `(...)` ( $1 ( \1 ) )
 - Non Capturing Group - `(?:...)`
@@ -583,8 +553,6 @@ String: `This is a test`
 ---
 
 ### Lookaheads
-
----
 
 - Positive lookahead: `(?=)`, Negative lookahead: `(?!)`
 
@@ -611,8 +579,6 @@ Match: `53222` `23323`
 ---
 
 ### Lookbehinds
-
----
 
 - Positive lookbehind: `(?<=)`, Negative lookbehind: `(?<!)`
 
@@ -651,8 +617,6 @@ Match: `$3` `$4`
 ---
 
 ### **If conditionals**
-
----
 
 - Named and Nested Conditionals
 
