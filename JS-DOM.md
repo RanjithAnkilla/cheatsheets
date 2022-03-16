@@ -1,6 +1,4 @@
-<center> <h2>JavaScript [DOM]</h2></center>
-
----
+# JavaScript [DOM]
 
 ### DOM loading events
 
