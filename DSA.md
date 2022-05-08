@@ -56,19 +56,19 @@ display([1, 2, 3], ['john', 'bob', 'jane'])
 
 - O(log n) logarithmic is Scaleable
 
-  ![logarithmic](./assets/img/logn.png 'logarithmic')
+  ![logarithmic](./assets/python/img/logn.png 'logarithmic')
 
 - Example: Binary Search
 
 - O(2 ^ n) Exponential
 
-  ![exponential](./assets/img/exponential.png 'exponential')
+  ![exponential](./assets/python/img/exponential.png 'exponential')
 
 - Exponential is Opposite of o(log n) and it is not Scaleable at all
 
 - Big O Curves
 
-  ![Big O curves](./assets/img/bigOCurves.png 'Big O curves')
+  ![Big O curves](./assets/python/img/bigOCurves.png 'Big O curves')
 
 ## Space Complexity
 
@@ -93,7 +93,7 @@ display(["john", "bob", "jane"])
 
 ## Array
 
-![big o of array](./assets/img/arrays.png 'big o of array')
+![big o of array](./assets/python/img/arrays.png 'big o of array')
 
 - LookUp - O(1)
 - Insert - O(n)
@@ -283,7 +283,7 @@ class LinkedList:
         return a.value
 ```
 
-![Time Complexity of Arrays and  Linked Lists](./assets/img/arrayLinkedlist.png 'Time Complexity of Arrays and  Linked Lists')
+![Time Complexity of Arrays and  Linked Lists](./assets/python/img/arrayLinkedlist.png 'Time Complexity of Arrays and  Linked Lists')
 
 ## Stacks - LIFO
 
@@ -292,7 +292,7 @@ class LinkedList:
 - Evaluate expressions (eg 1+2\*3)
 - Build Navigation (eg forward / back)
 
-!["Stack"](./assets/img/stacks.png 'Stack')
+!["Stack"](./assets/python/img/stacks.png 'Stack')
 
 ```python
 class Stack:
